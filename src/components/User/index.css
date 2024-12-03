@@ -1,0 +1,133 @@
+.user-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    border-radius:9px;
+    width:100%;
+}
+@media screen and (min-width:992px){
+    .form-container{
+        width:60%;
+        padding:35px 48px 64px 48px;
+        box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    }
+}
+.input-container{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    width:100%;
+}
+.label-input{
+    margin-bottom:0px;
+    font-size:20px;
+    font-family:"Roboto";
+    font-weight:bold;
+    color: #475569;
+}
+.label-password{
+    margin-bottom:0px;
+    font-size:20px;
+    font-family:"Roboto";
+    font-weight:bold;
+    color: #475569;
+}
+.user-input{
+    font-size:18px;
+    font-family:'Roboto';
+    background-color: #e2e8f0;
+    height:30px;
+    border: 1px solid #d7dfe9;
+    border-radius:6px;
+    color: #64748b;
+    padding:8px 16px 8px 16px;
+}
+.password-user{
+    font-size:18px;
+    font-family:'Roboto';
+    background-color: #e2e8f0;
+    height:30px;
+    border: 1px solid #d7dfe9;
+    border-radius:6px;
+    color: #64748b;
+    padding:8px 16px 8px 16px;
+}
+.button{
+    font-size:18px;
+    font-family:"Roboto";
+    color:#ffffff;
+    background-color: #0b69ff;
+    font-weight:bold;
+    border-radius:8px;
+    border:none;
+    width:100%;
+    margin-top:20px;
+    height:40px;
+}
+.address{
+    color:#475569;
+    font-size:27px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.registration-container{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.user-heading{
+    color:#000000;
+    font-size:38px;
+    font-family:"Roboto";
+    font-weight:bold;
+    text-align:center;
+    margin-right:30px;
+}
+.card-container{
+    background-color:#ffffff;
+    border:1px solid black;
+    border-radius:5px;
+    margin-left:40px;
+    height:150px;
+    width:140px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px 25px 22px 20px;
+    text-align:center;
+} 
+.pass-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-self:flex-end;
+    flex:1;
+}
+.para{
+    color:#383f4b;
+    font-size:15px;
+    font-family:"Roboto";
+    font-weight:500;
+    text-align:center;
+}
+.head{
+    color:#383f4b;
+    font-size:28px;
+    font-family:"Roboto";
+    font-weight:bold;
+    margin-top:30px;
+    text-align:center;
+}
+.paragraph{
+    color:#475569;
+    font-size:16px;
+    font-family:"Roboto";
+    font-weight:bold;
+}

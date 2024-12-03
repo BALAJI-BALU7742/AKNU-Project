@@ -1,0 +1,11 @@
+.home-container{
+    background-image:url("https://img.freepik.com/premium-photo/majestic-library-hall-with-vintage-books-cozy-reading-areas-generated-by-ai_694448-144.jpg?w=996");
+    height:100vh;
+    background-size:cover;
+}
+.home-head{
+    color:#ffffff;
+    font-size:40px;
+    font-family:"Roboto";
+    font-weight:500;
+}
