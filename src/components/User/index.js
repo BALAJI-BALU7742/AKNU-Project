@@ -61,7 +61,7 @@ const User=()=>{
                     <p className="paragraph">I here declare that I abide by the rules and regulation of the library and those that may be notified me from time to time</p>
                     <p className="paragraph">Signature of the student :</p>
                 </div>
-                <button type="submit" className="button">Login</button>
+                <button type="submit" className="button">Register</button>
             </form>
            </div>
     )
