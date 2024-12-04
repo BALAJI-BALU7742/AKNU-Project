@@ -1,35 +1,60 @@
-.nav-header{
-    display:flex;
-    justify-content:center;
+.navbar {
+    padding: 15px 20px;
 }
-.nav-content{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    width:90%;
-    max-width:1110px;
-    padding-top:25px;
-    padding-bottom:25px;
+
+.aknu-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
 }
-.nav-menu{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    align-self:flex-end;
-    flex:1;
-    margin-top:0px;
-    list-style-type:none;
+
+.navbar-toggler {
+    border: none;
 }
-.aknu-logo{
-    width:80px;
-    height:70px;
-    background-color:none;
+
+.navbar-nav {
+    align-items: center;
 }
-.nav-link{
-    text-decoration:none;
-    color:#000000;
-    font-size:27px;
-    font-family:"Roboto";
-    font-weight:bold;
-    margin-right:20px;
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+.nav-link.active {
+    color: #ffffff;
+    background-color: #0b69ff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .aknu-logo {
+        width: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .aknu-logo {
+        width: 60px;
+    }
 }

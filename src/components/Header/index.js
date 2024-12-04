@@ -8,7 +8,7 @@ const Header = () => {
         <Link to="/" className="navbar-brand">
           <img
             src="https://aknu.edu.in/images/Logo.jpg"
-            alt="Aadikavinannaya University Logo"
+            alt="Adikavi Nannaya University Logo"
             className="aknu-logo"
           />
         </Link>
@@ -25,17 +25,17 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li>
+            <li className="nav-item">
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link to="/user" className="nav-link">
                 User
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link to="/admin" className="nav-link">
                 Admin
               </Link>
